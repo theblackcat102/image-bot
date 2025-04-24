@@ -10,7 +10,7 @@ from PIL import Image
 from discord import app_commands
 from dotenv import load_dotenv
 load_dotenv()
-TOKEN = os.getenv('TOKEN')
+TOKEN = os.getenv('DISCORD_BOT_TOKEN')
 from oai_gpt import edit_image_with_openai
 from gemini_editor import edit_image_with_gemini
 
